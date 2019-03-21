@@ -1,0 +1,11 @@
+# Ignore syslog files
+*.log
+
+# Ignore local configuration
+local/*
+!local/README.md
+
+# Ignore database files
+webapp/database/*
+!webapp/database/README.md
+webapp/docker-compose.override.yml
